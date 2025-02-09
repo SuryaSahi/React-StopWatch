@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #65e5f6 0%, #85fdad 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+  width: 100%;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  padding: 40px;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #000000;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+#start {
+  background: #4caf50;
+}
+#stop {
+  background: #cc2626;
+}
+#reset {
+  background: #a8af4c;
+}
+
+.Timer, .txt, .digit {
+  color: #000000;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Timer {
+  font-size: 2rem;
+}
+
+.txt {
+  font-size: 30px;
+}
+
+.digit {
+  font-size: 150px;
+  font-weight: bold;
+}
